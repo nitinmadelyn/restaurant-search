@@ -1,7 +1,7 @@
 # Restaurant Search API
 A small restaurant search api using NodeJS + Typescript + MongoDB
 
-## Features
+## 🚀 Check out it's awesome features
 
 1. User Registration
 2. User Login
@@ -10,7 +10,7 @@ A small restaurant search api using NodeJS + Typescript + MongoDB
 5. Get All Restaurant
 6. Delete Restaurant By ID
 
-## Infrastructure 
+## ⚙️ Infrastructure 
 
 - Node v18.x.x
 - NPM or YARN (package manager)
@@ -19,7 +19,7 @@ A small restaurant search api using NodeJS + Typescript + MongoDB
 - For this small project to send an email `nodemailer` package has been used. But for production SendGrid, AWS SES, etc. can be used.
 - TODO: add new endpoint to generate new token from refresh token
 
-## How to setup
+## 💻 How to setup
 
 1. Ensure you have Docker and Docker Compose installed on your machine.
 2. Clone this repository to your local machine.
@@ -32,15 +32,15 @@ A small restaurant search api using NodeJS + Typescript + MongoDB
    docker-compose up
    ```
 
-## How to run tests
+## ✅ How to run tests
 
 From the root directory execute `npm test` or `yarn test`
 
-## API Documentation
+## 📄 API Documentation
 
 You can find all the endpoints configuration from this [POSTMAN Collection](https://documenter.getpostman.com/view/1316746/2s946pZp4P)
 
-## Out of scope
+## ❌ Out of scope
 
 There's no web interface to reset the password when you click on the link received on your email. Instead you can use `/api/auth/reset-password` endpoint to reset your password.
 

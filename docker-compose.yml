@@ -12,15 +12,11 @@ services:
   api:
     build:
       context: .
-      args:
-        - NODE_ENV=development
-        - PORT=3000
     ports:
       - 3000:3000
     volumes:
       - .:/home/node/app
     environment:
-      - NODE_ENV=development
       - MONGO_URI=mongodb://mongo:27017/restaurant
       - JWT_KEY='NoOnEcAnBrEaKtHiS' # this can be save to kubernetes using `kubectl create secret generic` command when deploy to production
     restart: always
