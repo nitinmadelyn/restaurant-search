@@ -5,8 +5,8 @@ export default {
     },
     SMTP: {
         service: 'gmail',
-        user: 'personalforott@gmail.com',
-        password: 'fawlcqlaoufssmuc'
+        user: 'youremail',
+        password: 'app-password'
     },
     email: {
         resetPassword: {
